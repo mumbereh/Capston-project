@@ -34,7 +34,7 @@
 }
 
 li {
-  font-family: 'Poppins', sans-serif;
+  font-family: Cocogoose;
   list-style: none;
   display: inline;
   left: 2.4%;
@@ -71,7 +71,7 @@ nav a {
   left: 4px;
   right: 68px;
   margin-top: 9%;
-  font-family: 'Poppins', sans-serif;
+  font-family: Cocogoose;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -154,22 +154,24 @@ nav a {
 }
 
 .slogan{
+  font-family: Cocogoose;
   margin-top: 17%;
-  color: red;
+  color: #ec5242;
   font-size: 24px;
  margin-left: 20px;
  margin-bottom: -16px;
  
 }
 .head-name{
-  color: red;
+  font-family: Cocogoose;
+  color: #ec5242;
   font-size: 30px;
   padding: 12px;
   margin-left: 20px;
 }
 
 .head-para{
- 
+  font-family: Cocogoose;
   display: flex;
   padding-bottom: 12px;
   border: 2px solid white;
@@ -193,8 +195,10 @@ SPan{
   margin-bottom: 20%;
 }
 
-program{
-  margin:5%
+.program{
+ margin-top: 40px;
+ margin-bottom: 5%; 
+
 }
 
 .container {
@@ -223,21 +227,23 @@ program{
 }
 
 .title {
+  font-family: Cocogoose;
   margin-top: 5%;
   padding-right: 2%;
   font-size: 16px;
   font-weight: bold; 
-  color:red
+  color:#ec5242;
 }
 
 .card-para {
+  font-family: Cocogoose;
   flex: 1;
   font-size: 12px;
   color: white;
 }
 
 .join-btn {
-  background-color: red;
+  background-color: #ec5242;
   padding: 14px;
   color: white;
   text-align: center;
@@ -275,6 +281,7 @@ program{
 }
 
 .speaker-name {
+  font-family: Cocogoose;
   font-size: 18px;
   font-weight: bold;
   padding-left: 2%; 
@@ -288,13 +295,12 @@ program{
 }
 
 .work {
-  color: red;
+  color: #ec5242;
 }
 
   .footer{
     background-color:  rgb(34, 33, 33);
     padding-top: 2rem;
-    margin-top: 2rem;
 
   }
   .footer-head{
@@ -311,6 +317,9 @@ program{
   margin:1rem;
 }
 
+.prog{
+  display: none;
+}
 .logo > div {
   text-align: center;
   margin:1rem;
@@ -349,14 +358,14 @@ copyright{
 
 .about-slogan{
   margin-top: 17%;
-  color: red;
+  color: #ec5242;
   font-size: 24px;
  text-align: center;
  margin-bottom: -16px;
 }
 
 .about-name{
-  color: red;
+  color: #ec5242;
   font-size: 30px;
   padding: 12px;
   text-align: center;
@@ -410,7 +419,7 @@ display: none;
   .links{
     display: block;
     float: right;
-    margin-top:-57;
+    margin-top:-57px;
   }
   .main-header {
     display: flex;
@@ -421,7 +430,7 @@ display: none;
   .logo img {
     display: block;
     margin-right: auto;
-    margin-left: 103px;
+    margin-left: 201px;
     width: 95px;
   }
   .menu {
@@ -452,12 +461,13 @@ display: none;
  
   .head-name {
     display: flex;
+    font-size: 34px;
     font-family: 'Poppins', sans-serif;
-    width: 920px;
-    height: 122px;
-    color: rgb(235, 59, 59);
-    margin-left: 20%;
-    margin-top: 8%;
+    height: 90px;
+    color: #ec5242;
+    margin-left: 16%;
+    margin-top: 17%;
+    line-height:60px;
   }
 
   .above-nav{
@@ -468,52 +478,155 @@ display: none;
     padding: 12px;
   }
 
+  .desk-home {
+    margin-left: 216px;
+    margin-top: 3%;
+    padding-bottom: 12%;
+}
+p {
+    margin: 0;
+    text-align: left;
+}
+
   .about a{
-     color: rgb(235, 59, 59);
+    color: #ec5242;
   }
   .nav-btn{
     color: rgb(235, 59, 59);
-    border: 3px solid rgb(235, 59, 59);
+    border: 3px solid    #ec5242;
     background-color: #fff;
     padding: 10px;
   }
 
   .nav-btn a{
-    color: rgb(235, 59, 59);
+    color: #ec5242;
   }
   .head-para {
     padding-left: 1%;
-    width: 36%;
+    width: 39%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 9px;
+    font-size: 12px;
     border: 2px solid #fff;
-    margin-top:20px;
-     background-color:rgb(235, 235, 235);
-     margin-left: 20%;
-
+    margin-top: 87px;
+    background-color: rgb(235, 235, 235);
+    margin-left: 17%;
+    font-family: Cocogoose;
   }
 
   .slogan{
-    margin-left: 20%;
-    color: rgb(235, 59, 59);
-    margin-top: 7%;
-    margin-bottom: -7%;
-    font-size: 27px;
+    margin-left: 17%;
+    color: #ec5242;
+    margin-top: -1%;
+    margin-bottom: -15%;
+    padding-top: 5%;
+    font-size: 24px;
+    font-family: Cocogoose;
   }
-
-  .menu-img {
-    display: none;
+  .container {
+  
+    flex-wrap: wrap;
+    
+    align-items: center;
+    text-align: center; 
   }
-  .logo{
-    display: block;
+  
+  .flex > .card {
+    flex: 1 1 1px;
+    width: 105px;
   }
-  .pic {
-    order: 2;
+  
+  .card {
+    width: 20%;
+    border: 2px solid #ec5242;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+  
+  .card-image {
+    width: 30%;
+    object-fit: cover;
+    height: 15%;
+    margin-right: 1rem;
+    margin-top: 12%;
+  }
+  
   .title {
-    height: 46px;
-    width: 496px;
-    padding-left: -100px;
+    margin-top: 10px;
+    font-family: Cocogoose;
   }
+  
+  .card-para {
+    margin-top: 10px;
+    padding-bottom: -1x;
+    font-family: Cocogoose;
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 3%;
+  }
+  
+  .join-btn {
+    margin-top: 1rem;
+  }
+  
+.prog{
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Cocogoose;
+}
+
+.join-btn{
+  display: none;
+}
+
+
+
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.sample {
+  width: 48%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.speaker-img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.speaker-name {
+  margin-top: 0;
+  font-size: 12px;
+  color: #272a31;
+  font-family: Cocogoose;
+}
+
+.work {
+  margin-bottom: 0;
+  font-size: 10px;
+  color:#ec5242;
+  font-family: Cocogoose;
+
+}
+.contribution{
+  color: #272a31;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-family: Cocogoose;
+}
 }
