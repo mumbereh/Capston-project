@@ -93,6 +93,13 @@ nav a {
   width: 24px;
 }
 
+.last-head{
+  display: none;
+}
+.heading{
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -117,7 +124,11 @@ nav a {
     font-weight: bold;
     font-size: 32px;
   }
-
+  
+  .about2{
+    display: none;
+  }
+    
   nav.show {
     transform: translateX(0);
   }
@@ -237,6 +248,7 @@ copyright {
 
 .logo div {
   margin: 10px;
+  background:  rgb(95, 95, 97);
 }
 
 .footer-logo {
@@ -252,4 +264,167 @@ copyright {
 .last-footer p {
   font-size: 12px;
   color: rgb(95, 95, 97);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-img {
+display: none;
+  }
+  .links{
+    display: block;
+    float: right;
+    margin-top: -41px;
+  }
+  .main-header {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .logo img {
+    display: block;
+    margin-right: auto;
+    margin-left: 201px;
+    width: 95px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  .control{
+    display:none;
+  }
+  .home-page {
+    background: url(images/main_desktop.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .mobile-text{
+    display: none;
+  }
+ 
+  .about-name {
+    color: #ec5242;
+    font-size: 34px;
+    padding: 10px;
+    text-align: center;
+    font-family: COCOGOOSE;
+    margin-top: 10%;
+  }
+
+  .above-nav{
+    display: block;
+    background-color: #000;
+    width: 100%;
+    font-size: 10px;
+    padding: 12px;
+  }
+
+  .desk-home {
+    margin-left: 216px;
+    margin-top: 3%;
+    padding-bottom: 12%;
+}
+p {
+    margin: 0;
+    text-align: left;
+}
+
+  .about a{
+    color: #ec5242;
+  }
+  .nav-btn{
+    color: rgb(235, 59, 59);
+    border: 3px solid    #ec5242;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .nav-btn a{
+    color: #ec5242;
+  }
+  .head-para {
+    padding-left: 1%;
+    width: 39%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    border: 2px solid #fff;
+    margin-top: 87px;
+    background-color: rgb(235, 235, 235);
+    margin-left: 17%;
+    font-family: Cocogoose;
+  }
+
+
+
+  .about2{
+    display: block;
+    text-align: center;
+    margin: 2%;
+  width: 60%;
+    font-size: 12px;
+    border: 2px solid #deded3;
+    font-family: COCOGOOSE;
+    background-color: #fff;
+    padding: 1rem;
+    line-height: 30px;
+    margin-left:20%;
+
+  }
+
+  .heading{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: COCOGOOSE;
+    padding: 1rem;
+  }
+
+
+.creative-desk{
+  font-size: 12px;
+  font-family: COCOGOOSE;
+ text-align: center;
+
+
+}
+  .creative {
+    display: none;
+  }
+
+  .about-para{
+    display: none;
+  }
+  .about-slogan{
+   display: none;
+  }
+
+  .about-logo{
+    margin-left: 28%;
+  }
+
+.work {
+  margin-bottom: 0;
+  font-size: 10px;
+  color:#ec5242;
+  font-family: Cocogoose;
+
+}
+.contribution{
+  color: #272a31;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-family: Cocogoose;
+}
 }
