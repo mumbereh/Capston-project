@@ -41,7 +41,7 @@
 }
 
 li {
-  font-family: "Poppins", sans-serif;
+  font-family: Cocogoose, sans-serif;
   list-style: none;
   display: inline;
   left: 2.4%;
@@ -50,7 +50,6 @@ li {
   bottom: 18.88%;
   margin-left: 15px;
 }
-
 
 nav li {
   list-style: none;
@@ -79,7 +78,7 @@ nav a {
   left: 4px;
   right: 68px;
   margin-top: 9%;
-  font-family: "Poppins", sans-serif;
+  font-family: Cocogoose, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -115,7 +114,6 @@ nav a {
   display: flex;
   justify-content: center;
   flex-direction: row;
-
 }
 
 .last-logo {
@@ -124,7 +122,7 @@ nav a {
 }
 
 .partner-logo {
-  flex:  1;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -135,8 +133,8 @@ nav a {
   padding-top: 20%;
   padding-bottom: 20%;
   margin-top: 10%;
-
 }
+
 .pa-cent {
   display: flex;
   justify-content: center;
@@ -145,8 +143,6 @@ nav a {
 .partner {
   text-align: center;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .menu-toggle {
@@ -220,7 +216,7 @@ copyright {
   font-size: 20px;
   text-align: center;
   margin-bottom: -16px;
-  font-family: COCOGOOSE;
+  font-family: Cocogoose, sans-serif;
 }
 
 .about-name {
@@ -228,7 +224,7 @@ copyright {
   font-size: 30px;
   padding: 10px;
   text-align: center;
-  font-family: COCOGOOSE;
+  font-family: Cocogoose, sans-serif;
 }
 
 .about-para {
@@ -236,7 +232,7 @@ copyright {
   margin: 2%;
   font-size: 14px;
   border: 2px solid #deded3;
-  font-family: COCOGOOSE;
+  font-family: Cocogoose, sans-serif;
   background-color: #fff;
   padding: 1rem;
   line-height: 30px;
@@ -245,7 +241,7 @@ copyright {
 .desk-about {
   text-align: center;
   font-size: 12px;
-  font-family: COCOGOOSE;
+  font-family: Cocogoose, sans-serif;
   padding: 1rem;
   line-height: 30px;
 }
@@ -253,7 +249,7 @@ copyright {
 .creative {
   text-align: center;
   font-size: 12px;
-  font-family: COCOGOOSE;
+  font-family: Cocogoose, sans-serif;
   padding: 1rem;
   line-height: 30px;
   margin-bottom: 20px;
@@ -372,7 +368,7 @@ copyright {
     font-size: 34px;
     padding: 10px;
     text-align: center;
-    font-family: COCOGOOSE;
+    font-family: Cocogoose, sans-serif;
     margin-top: 10%;
   }
 
@@ -420,7 +416,7 @@ copyright {
     margin-top: 87px;
     background-color: rgb(235, 235, 235);
     margin-left: 17%;
-    font-family: Cocogoose;
+    font-family: Cocogoose, sans-serif;
   }
 
   .about2 {
@@ -430,7 +426,7 @@ copyright {
     width: 60%;
     font-size: 12px;
     border: 2px solid #deded3;
-    font-family: COCOGOOSE;
+    font-family: Cocogoose, sans-serif;
     background-color: #fff;
     padding: 1rem;
     line-height: 30px;
@@ -441,13 +437,13 @@ copyright {
     display: block;
     font-size: 20px;
     text-align: center;
-    font-family: COCOGOOSE;
+    font-family: Cocogoose, sans-serif;
     padding: 1rem;
   }
 
   .creative-desk {
     font-size: 12px;
-    font-family: COCOGOOSE;
+    font-family: Cocogoose, sans-serif;
     text-align: center;
   }
 
@@ -481,14 +477,14 @@ copyright {
     margin-bottom: 0;
     font-size: 10px;
     color: #ec5242;
-    font-family: Cocogoose;
+    font-family: Cocogoose, sans-serif;
   }
 
   .contribution {
     color: #272a31;
     margin-bottom: 0;
     font-size: 10px;
-    font-family: Cocogoose;
+    font-family: Cocogoose, sans-serif;
   }
 
   .last-head {
@@ -540,7 +536,7 @@ copyright {
     color: white;
     padding: 5px 5px;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: Cocogoose, sans-serif;
   }
 
   .nav-top li a:hover {
