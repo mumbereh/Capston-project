@@ -29,6 +29,10 @@
   margin-bottom: 41px;
 }
 
+.nav-top {
+  display: none;
+}
+
 li {
   font-family: Cocogoose, sans-serif;
   list-style: none;
@@ -45,8 +49,6 @@ nav li {
   display: inline;
   left: 2.4%;
   right: 88.27%;
-  top: 77.81%;
-  bottom: 18.88%;
   margin-left: 15px;
   margin-right: 1rem;
 }
@@ -61,6 +63,10 @@ nav a {
   margin-right: 70px;
 }
 
+
+.container{
+  display: none;
+}
 .close-button .links {
   height: 24px;
   left: 4px;
@@ -147,10 +153,9 @@ nav a {
   padding-bottom: 120px;
 }
 
-.home-page{
-  background:url(images/mobile_bg.png);
+.home-page {
+  background: url(images/mobile_bg.png);
   background-size: 100%;
-  
 }
 
 .slogan {
@@ -159,7 +164,6 @@ nav a {
   font-size: 12px;
   margin-left: 38px;
   margin-bottom: -10px;
-  
 }
 
 .head-name {
@@ -195,22 +199,20 @@ span {
   margin-bottom: 20%;
 }
 
-
-
 .container {
-  background-image:url(images/pho.JPG);
+  background-image: url(images/pho.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:100% 100%;
+  background-position: 100% 100%;
 }
-  .program {
+
+.program {
   margin-top: 40px;
   margin-bottom: 5%;
   margin-top: -5%;
-   text-align: center;
-   padding-bottom: -15%;
+  text-align: center;
+  padding-bottom: -15%;
 }
-
 
 .card {
   background-color: rgba(184, 172, 172, 0.062);
@@ -318,13 +320,13 @@ span {
   justify-content: space-around;
   align-items: center;
   margin: 1rem;
+  margin-top: 2%;
 }
-.prog1{
-  color:#fff;
+
+.prog1 {
+  color: #fff;
   text-align: center;
-  padding:5%;
-
-
+  padding: 5%;
 }
 
 .prog {
@@ -342,14 +344,13 @@ span {
 }
 
 .last-footer {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
 }
 
-/* About page */
 .footer-logo {
   width: 150px;
   padding-right: 1rem;
@@ -436,11 +437,19 @@ copyright {
     flex-wrap: wrap;
   }
 
+
+
   .logo img {
     display: block;
     margin-right: auto;
     margin-left: 201px;
     width: 95px;
+  }
+
+  .above-nav {
+    display: block;
+    color: white;
+    background-color: #272a31;
   }
 
   .menu {
@@ -459,7 +468,7 @@ copyright {
     display: none;
   }
 
-  .home-page {
+  .home-page1 {
     background-image: url(images/main_desktop.png);
     background-position: cover;
     background-repeat: no-repeat;
@@ -479,6 +488,10 @@ copyright {
     margin-left: 16%;
     margin-top: 17%;
     line-height: 60px;
+  }
+
+  .homo-page {
+    display: none;
   }
 
   .above-nav {
@@ -529,11 +542,11 @@ copyright {
 
   .slogan {
     color: #ec5242;
-    font-size: 12px;
-    margin-left: 40px;
-    margin-bottom: -16px;
-    font-family: Cocogoose,sans-serif;
-    
+    font-size: 24px;
+    margin-left: 233px;
+    margin-bottom: -243px;
+    font-family: Cocogoose, sans-serif;
+    margin-top: 10%;
   }
 
   .container {
@@ -546,12 +559,12 @@ copyright {
     margin: 0 auto;
     max-width: 100%;
   }
-  
+
   .flex > .card {
     flex: 1 1 105px;
     margin: 5px;
   }
-  
+
   .card {
     width: 15%;
     height: 100%;
@@ -562,9 +575,11 @@ copyright {
     justify-content: center;
     text-align: center;
     margin: 5px;
-
   }
-  
+  .close-button{
+    display:none;
+  }
+
   .card-image {
     width: 30%;
     object-fit: cover;
@@ -646,5 +661,83 @@ copyright {
     margin-bottom: 0;
     font-size: 10px;
     font-family: Cocogoose, sans-serif;
+  }
+
+  .footer {
+    background-color: rgb(34, 33, 33);
+    padding-top: 2rem;
+  }
+
+  .footer-head {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .container {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+  }
+
+  .last-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-logo {
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 2rem;
+  }
+
+  .partner {
+    font-size: 24px;
+    margin-bottom: 3%;
+    color: #e4e6e9;
+    font-family: Cocogoose, sans-serif;
+  }
+
+
+  .nav-top {
+    display: block;
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .nav-top ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 5%;
+  }
+
+  .nav-top li {
+    margin-right: 10px;
+  }
+
+  .nav-top li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  .nav-top li a:hover {
+    background-color: #555;
+  }
+
+  .hearer-second {
+    background-color: #fff;
+    margin-top: -2%;
   }
 }

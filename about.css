@@ -6,13 +6,12 @@
   padding: 0;
 }
 
-.about-page{
+.about-page {
   background-image: url(background/mobile_bg.png);
-  background-repeat:no-repeat ;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-  
 
 .logo img {
   width: 48px;
@@ -51,6 +50,7 @@ li {
   bottom: 18.88%;
   margin-left: 15px;
 }
+
 
 nav li {
   list-style: none;
@@ -109,6 +109,44 @@ nav a {
 .heading {
   display: none;
 }
+
+.cont {
+  background-color: #272a31;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.last-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.partner-logo {
+  flex:  1;
+  display: flex;
+  justify-content: center;
+}
+
+.partner-logo img {
+  width: 20%;
+  margin-left: 2rem;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-top: 10%;
+
+}
+.pa-cent {
+  display: flex;
+  justify-content: center;
+}
+
+.partner {
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .menu-toggle {
@@ -363,7 +401,7 @@ copyright {
 
   .nav-btn {
     color: rgb(235, 59, 59);
-    border: 3px solid    #ec5242;
+    border: 3px solid #ec5242;
     background-color: #fff;
     padding: 10px;
   }
@@ -375,7 +413,7 @@ copyright {
   .head-para {
     padding-left: 1%;
     width: 39%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 12px;
     border: 2px solid #fff;
@@ -415,8 +453,12 @@ copyright {
 
   .line {
     margin: auto;
-    width: 50%;
-    color: #ec5242;
+    width: 5%;
+    border-color: red;
+  }
+
+  .cc-Email {
+    text-decoration: underline;
   }
 
   .creative {
@@ -451,5 +493,62 @@ copyright {
 
   .last-head {
     display: block;
+  }
+
+  .footer {
+    background-color: rgb(34, 33, 33);
+    padding-top: 2rem;
+  }
+
+  .footer-head {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .last-logo {
+    background-color: #272a31;
+    padding: 20%;
+    display: inline-block;
+  }
+
+  .partner-logo img {
+    width: 30%;
+    display: inline-block;
+  }
+
+  .nav-top {
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .nav-top ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-right: 5%;
+  }
+
+  .nav-top li {
+    margin-right: 10px;
+  }
+
+  .nav-top li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  .nav-top li a:hover {
+    background-color: #555;
+  }
+
+  .hearer-second {
+    background-color: #fff;
+    margin-top: -2%;
   }
 }
