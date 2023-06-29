@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap';
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
 
 * {
   margin: 0;
@@ -488,7 +488,7 @@ p {
 
   .nav-btn {
     color: rgb(235, 59, 59);
-    border: 3px solid    #ec5242;
+    border: 3px solid #ec5242;
     background-color: #fff;
     padding: 10px;
   }
