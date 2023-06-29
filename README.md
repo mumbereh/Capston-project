@@ -1,4 +1,4 @@
-<h1><b> Mumbere Habert Portofolio</b></h1>
+<h1><b> Mumbere Habert Capstone Project</b></h1>
 
 # 📗 Table of Contents
 
