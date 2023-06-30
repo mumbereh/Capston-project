@@ -1,4 +1,5 @@
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
+/* @import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
+  @import "https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"; */
 
 * {
   margin: 0;
@@ -32,7 +33,7 @@
 }
 
 li {
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Lato', sans-serif;
   list-style: none;
   display: inline;
   left: 2.4%;
@@ -52,9 +53,17 @@ nav li {
 }
 
 nav a {
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: #333;
   font-weight: bold;
+}
+
+.footer-logo{
+  display: none;
+}
+.copyright{
+  display: none;
 }
 
 .nav-btn {
@@ -70,7 +79,7 @@ nav a {
   left: 4px;
   right: 68px;
   margin-top: 9%;
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -166,7 +175,7 @@ nav a {
 }
 
 .head-para {
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   display: flex;
   padding-bottom: 12px;
   border: 2px solid white;
@@ -211,6 +220,7 @@ span {
   display: flex;
   padding: 2%;
   flex-direction: row;
+  font-family: 'Lato', sans-serif;
 }
 
 .card-image {
@@ -221,7 +231,7 @@ span {
 }
 
 .title {
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-top: 5%;
   padding-right: 2%;
   font-size: 16px;
@@ -230,7 +240,7 @@ span {
 }
 
 .card-para {
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Lato', sans-serif;
   flex: 1;
   font-size: 12px;
   color: white;
@@ -245,6 +255,7 @@ span {
   margin-left: 74px;
   margin-top: 6%;
   margin-bottom: 7%;
+  font-family: 'Lato', sans-serif;
 }
 
 .flex {
@@ -262,6 +273,7 @@ span {
   font-size: 24px;
   text-align: center;
   padding: 24px;
+  font-family: 'Lato', sans-serif;
 }
 
 .sample {
@@ -276,7 +288,7 @@ span {
 }
 
 .speaker-name {
-  font-family: Cocogoose, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
   padding-left: 2%;
@@ -317,6 +329,7 @@ span {
   color: #fff;
   text-align: center;
   padding: 5%;
+  font-family: 'Lato', sans-serif;
 }
 
 .prog {
@@ -363,7 +376,11 @@ p {
   margin-bottom: 5%;
   border: 2px solid rgb(173, 171, 171);
 }
+.feature{
+  text-align: cener;
+  display: none;
 
+}
 .last-para {
   text-align: center;
   color: rgb(95, 95, 97);
@@ -379,6 +396,7 @@ p {
     display: block;
     float: right;
     margin-top: -57px;
+    font-family: 'Lato', sans-serif;
   }
 
   .main-header {
@@ -395,11 +413,6 @@ p {
     width: 95px;
   }
 
-  .above-nav {
-    display: block;
-    color: white;
-    background-color: #272a31;
-  }
 
   .menu {
     display: none;
@@ -433,6 +446,8 @@ p {
     margin-left: 216px;
     margin-top: 3%;
     padding-bottom: 12%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   p {
@@ -442,6 +457,8 @@ p {
 
   .about a {
     color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   .nav-btn {
@@ -460,14 +477,25 @@ p {
     margin-left: 18%;
     font-family: lato, sans-serif;
     margin-top:7%;
+    font-weight: bold;
   } 
   .head-name {
     color: #ec5242;
     font-size: 30px;
     margin-left: 17%;
     font-size: 39px;
-    
+    font-weight: bold;
+    font-family: lato, sans-serif;
   }
+  .feature{
+    text-align: cener;
+    display: block;
+    font-family: lato, sans-serif;
+    font-weight: bold;
+
+  
+}
+
 .head-para {
     padding: 1%;
     width: 38%;
@@ -478,26 +506,41 @@ p {
     margin-left: 17%;
     margin-top: 5%;
     font-family: lato, sans-serif;
+    font-weight: 700;
   } 
 
   .container {
-    padding-top: 7%;
-    padding-bottom: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    padding-left: 15%;
+    padding-right: 15%;
+ 
   }
 
+  .line {
+    margin: auto;
+    width: 10%;
+    border-color: red;
+  }
+
+  .speaker{
+margin-bottom:10% ;
+  }
   .card {
-    font-family: lato, sans-serif;
-    border: 2px solid #ec5242; 
+
     flex-direction: column;
     align-items: center;
+    width:50%
+    padding-top:2%
+   
   }
 
   .flex > .card {
-    flex: 1 1 105px;
-    margin: 5px;
+    flex: 1 1 10px;
+    margin: -10px;
+   
   }
 
   .close-button {
@@ -514,33 +557,41 @@ p {
 
   .title {
     margin-top: 10px;
-    font-family: Cocogoose, sans-serif;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   .card-para {
     margin-top: 10px;
-    font-family: Cocogoose, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
+    font-weight: 700;
   }
 
   .button-container {
     margin-top: 3%;
   }
   .prog1 {
+    font-weight: 700;
     color: #fff;
     text-align: center;
-    padding: 5%;
-    margin-top: -4%;
+    font-family: 'Lato', sans-serif;
+    padding:2%
+    font-weight: 700;
   }
   .prog {
-    margin-top: 5%;
     display: block;
     text-align: center;
     color: #fff;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 14px;
     text-transform: uppercase;
-    font-family: Cocogoose, sans-serif;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-bottom: 6%;
+    margin-top: 4%;
   }
 
   .join-btn {
@@ -548,12 +599,14 @@ p {
   }
 
   .speakers {
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 30px;
-    margin-left: 30px;
-  }
+    margin-right: 221px;
+    margin-left: 220px;
+}
+  
 
   .sample {
     width: 48%;
@@ -568,23 +621,30 @@ p {
 
   .speaker-name {
     margin-top: 0;
-    font-size: 12px;
+    font-size: 16px;
     color: #272a31;
-    font-family: Cocogoose, sans-serif;
-  }
+    font-family: 'Lato', sans-serif;
+    font-weight:bolder;  }
 
   .work {
     margin-bottom: 0;
-    font-size: 10px;
+    font-size: 12px;
     color: #ec5242;
-    font-family: Cocogoose, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
   }
 
   .contribution {
     color: #272a31;
     margin-bottom: 0;
-    font-size: 10px;
-    font-family: Cocogoose, sans-serif;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+    .feature{
+      text-align: cener;
+      display: none;
+    
   }
 
   .footer {
@@ -603,6 +663,8 @@ p {
     background-color: #272a31;
     display: flex;
     justify-content: center;
+    padding: 5%;
+    flex-wrap: wrap;
   }
 
   .last-logo {
@@ -611,22 +673,32 @@ p {
   }
 
   .partner-logo {
-    flex: 0 0 10%;
-    display: flex;
-    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+
   }
 
   .partner-logo img {
+    display: flex;
     max-width: 100%;
     height: auto;
     margin-left: 2rem;
+
   }
 
   .partner {
-    font-size: 24px;
-    margin-bottom: 3%;
-    color: #e4e6e9;
-    font-family: Cocogoose, sans-serif;
+    padding-top: 1%;
+    font-size: 16x;
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-family: 'lato', sans-serif;
   }
 
   .nav-top {
@@ -653,6 +725,17 @@ p {
     padding: 5px 5px;
     font-size: 14px;
     font-family: sans-serif;
+    font-weight: 700;
+
+  }
+
+  .copyright {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+  font-family:lato ;
   }
 
   .nav-top li a:hover {
