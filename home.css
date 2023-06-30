@@ -150,15 +150,15 @@ nav a {
 }
 
 .slogan {
-  font-family: Cocogoose, sans-serif;
+  font-family:lato, sans-serif;
   color: #ec5242;
   font-size: 12px;
   margin-left: 38px;
-  margin-bottom: -10px;
+  margin-bottom: 14px;
 }
 
 .head-name {
-  font-family: Cocogoose, sans-serif;
+  font-family: lato, sans-serif;
   color: #ec5242;
   font-size: 18px;
   padding: 12px;
@@ -166,7 +166,7 @@ nav a {
 }
 
 .head-para {
-  font-family: Cocogoose, sans-serif;
+  font-family: lato;
   display: flex;
   padding-bottom: 12px;
   border: 2px solid white;
@@ -351,31 +351,6 @@ p {
   text-align: left;
 }
 
-.about-slogan {
-  margin-top: 17%;
-  color: #ec5242;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: -16px;
-}
-
-.about-name {
-  color: #ec5242;
-  font-size: 30px;
-  padding: 12px;
-  text-align: center;
-}
-
-.about-para {
-  display: flex;
-  padding-bottom: 12px;
-  border: 2px solid rgb(175, 172, 172);
-  width: 94%;
-  margin-left: 10px;
-  margin-top: -5px;
-  background-color: white;
-}
-
 .about-logo {
   padding: 1rem;
   padding-right: 19%;
@@ -387,14 +362,6 @@ p {
   margin-top: 5%;
   margin-bottom: 5%;
   border: 2px solid rgb(173, 171, 171);
-}
-
-.about-past {
-  text-align: center;
-  padding: 12px;
-  font-size: 24px;
-  font-weight: bold;
-  color: rgb(95, 95, 97);
 }
 
 .last-para {
@@ -450,21 +417,12 @@ p {
     background-image: url(images/main_desktop.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-position: 100% 100%;
+
   }
 
   .mobile-text {
     display: none;
-  }
-
-  .head-name {
-    display: flex;
-    font-size: 34px;
-    font-family: Cocogoose, sans-serif;
-    height: 90px;
-    color: #ec5242;
-    margin-left: 16%;
-    margin-top: 17%;
-    line-height: 60px;
   }
 
   .homo-page {
@@ -496,48 +454,45 @@ p {
   .nav-btn a {
     color: #ec5242;
   }
-
-  .head-para {
-    padding-left: 1%;
-    width: 39%;
-    font-weight: 400;
-    font-size: 12px;
-    border: 2px solid #fff;
-    margin-top: 87px;
-    background-color: rgb(235, 235, 235);
-    margin-left: 17%;
-    font-family: Cocogoose, sans-serif;
-  }
-
   .slogan {
     color: #ec5242;
     font-size: 24px;
-    margin-left: 233px;
-    margin-bottom: -243px;
-    font-family: Cocogoose, sans-serif;
-    margin-top: 10%;
+    margin-left: 18%;
+    font-family: lato, sans-serif;
+    margin-top:7%;
+  } 
+  .head-name {
+    color: #ec5242;
+    font-size: 30px;
+    margin-left: 17%;
+    font-size: 39px;
+    
   }
+.head-para {
+    padding: 1%;
+    width: 38%;
+    line-height: 24px;
+    font-size: 12px;
+    border: 2px solid #fff;
+    background-color: rgb(235, 235, 235);
+    margin-left: 17%;
+    margin-top: 5%;
+    font-family: lato, sans-serif;
+  } 
 
   .container {
     padding-top: 7%;
-    padding-bottom: 7%;
-    margin: 0 auto;
+    padding-bottom: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 100%;
   }
 
   .card {
-    width: 15%;
-    height: 100%;
-    border: 2px solid #ec5242;
-    display: flex;
+    font-family: lato, sans-serif;
+    border: 2px solid #ec5242; 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 5px;
   }
 
   .flex > .card {
@@ -571,7 +526,12 @@ p {
   .button-container {
     margin-top: 3%;
   }
-
+  .prog1 {
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    margin-top: -4%;
+  }
   .prog {
     margin-top: 5%;
     display: block;
