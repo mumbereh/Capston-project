@@ -16,16 +16,25 @@
   cursor: pointer;
 }
 
-.menu-img-container {
-  float: left;
-  margin-right: 10px;
-}
-
 .menu-img {
+  height: 20px;
   width: 11%;
   margin-left: 25px;
   margin-top: -12px;
   margin-bottom: 41px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu.show {
+  display: block;
+}
+
+.menu-img-container {
+  float: left;
+  margin-right: 10px;
 }
 
 .nav-top {
@@ -172,11 +181,10 @@ nav a {
 }
 
 .head-para {
-  font-family: 'Lato', sans-serif;
   display: flex;
   padding-bottom: 12px;
   border: 2px solid white;
-  width: 94%;
+  width: 81%;
   margin-left: 16px;
   margin-top: -5px;
   background-color: rgb(236, 232, 232);
@@ -284,6 +292,12 @@ span {
   padding: 12px;
 }
 
+.morebtn {
+  padding: 12px 16px;
+  width: 92%;
+  margin: 20px;
+}
+
 .speaker-name {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -329,6 +343,12 @@ span {
   font-family: 'Lato', sans-serif;
 }
 
+.line {
+  margin: 10px auto;
+  width: 10%;
+  border-color: #ec5242;
+}
+
 .prog {
   display: none;
 }
@@ -354,6 +374,13 @@ span {
 .footer-logo {
   width: 150px;
   padding-right: 1rem;
+}
+
+.feature {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 p {
@@ -622,7 +649,9 @@ p {
   }
 
   .feature {
-    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
   }
 
   .footer {
@@ -676,6 +705,10 @@ p {
     font-family: 'lato', sans-serif;
   }
 
+  .partner p {
+    font-size: 24px;
+  }
+
   .nav-top {
     display: block;
     background-color: #333;
@@ -722,6 +755,10 @@ p {
 
   .nav-top li a:hover {
     background-color: #555;
+  }
+
+  .morebtn {
+    display: none;
   }
 
   .hearer-second {
