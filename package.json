@@ -514,5 +514,13 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumbereh/Capston-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mumbereh/Capston-project/issues"
+  },
+  "homepage": "https://github.com/mumbereh/Capston-project#readme"
 }

@@ -59,10 +59,11 @@ nav a {
   font-weight: bold;
 }
 
-.footer-logo{
+.footer-logo {
   display: none;
 }
-.copyright{
+
+.copyright {
   display: none;
 }
 
@@ -159,7 +160,7 @@ nav a {
 }
 
 .slogan {
-  font-family:lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #ec5242;
   font-size: 12px;
   margin-left: 38px;
@@ -376,11 +377,12 @@ p {
   margin-bottom: 5%;
   border: 2px solid rgb(173, 171, 171);
 }
-.feature{
+
+.feature {
   text-align: cener;
   display: none;
-
 }
+
 .last-para {
   text-align: center;
   color: rgb(95, 95, 97);
@@ -413,7 +415,6 @@ p {
     width: 95px;
   }
 
-
   .menu {
     display: none;
   }
@@ -431,7 +432,6 @@ p {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 100% 100%;
-
   }
 
   .mobile-text {
@@ -471,14 +471,16 @@ p {
   .nav-btn a {
     color: #ec5242;
   }
+
   .slogan {
     color: #ec5242;
     font-size: 24px;
     margin-left: 18%;
     font-family: lato, sans-serif;
-    margin-top:7%;
+    margin-top: 7%;
     font-weight: bold;
-  } 
+  }
+
   .head-name {
     color: #ec5242;
     font-size: 30px;
@@ -487,16 +489,15 @@ p {
     font-weight: bold;
     font-family: lato, sans-serif;
   }
-  .feature{
+
+  .feature {
     text-align: cener;
     display: block;
     font-family: lato, sans-serif;
     font-weight: bold;
+  }
 
-  
-}
-
-.head-para {
+  .head-para {
     padding: 1%;
     width: 38%;
     line-height: 24px;
@@ -507,16 +508,14 @@ p {
     margin-top: 5%;
     font-family: lato, sans-serif;
     font-weight: 700;
-  } 
+  }
 
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     padding-left: 15%;
     padding-right: 15%;
- 
   }
 
   .line {
@@ -525,22 +524,20 @@ p {
     border-color: red;
   }
 
-  .speaker{
-margin-bottom:10% ;
+  .speaker {
+    margin-bottom: 10%;
   }
-  .card {
 
+  .card {
     flex-direction: column;
     align-items: center;
-    width:50%
-    padding-top:2%
-   
+    width: 50%;
+    padding-top: 2%;
   }
 
   .flex > .card {
     flex: 1 1 10px;
     margin: -10px;
-   
   }
 
   .close-button {
@@ -572,14 +569,16 @@ margin-bottom:10% ;
   .button-container {
     margin-top: 3%;
   }
+
   .prog1 {
     font-weight: 700;
     color: #fff;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    padding:2%
+    padding: 2%;
     font-weight: 700;
   }
+
   .prog {
     display: block;
     text-align: center;
@@ -605,8 +604,8 @@ margin-bottom:10% ;
     justify-content: space-between;
     margin-right: 221px;
     margin-left: 220px;
-}
-  
+  }
+
 
   .sample {
     width: 48%;
@@ -624,7 +623,8 @@ margin-bottom:10% ;
     font-size: 16px;
     color: #272a31;
     font-family: 'Lato', sans-serif;
-    font-weight:bolder;  }
+    font-weight: bolder;
+  }
 
   .work {
     margin-bottom: 0;
@@ -641,10 +641,10 @@ margin-bottom:10% ;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
   }
-    .feature{
-      text-align: cener;
-      display: none;
-    
+
+  .feature {
+    text-align: cener;
+    display: none;
   }
 
   .footer {
@@ -675,12 +675,11 @@ margin-bottom:10% ;
   .partner-logo {
     margin-top: 2%;
     width: 100%;
-  margin-left: 4%;
-  margin-right: 4%;
-  display: flex;
-  padding: 2%;
-  flex-direction: row;
-
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
   }
 
   .partner-logo img {
@@ -688,7 +687,6 @@ margin-bottom:10% ;
     max-width: 100%;
     height: auto;
     margin-left: 2rem;
-
   }
 
   .partner {
@@ -726,7 +724,13 @@ margin-bottom:10% ;
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 700;
+  }
 
+  .footer-logo {
+    padding: 6%;
+    display: block;
+    width: 280px;
+    margin-left: 6%;
   }
 
   .copyright {
@@ -735,7 +739,8 @@ margin-bottom:10% ;
     align-items: center;
     background-color: white;
     justify-content: space-around;
-  font-family:lato ;
+    font-family: sans-serif;
+    margin-right: 6%;
   }
 
   .nav-top li a:hover {
