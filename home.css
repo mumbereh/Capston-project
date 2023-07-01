@@ -59,10 +59,6 @@ nav a {
   font-weight: bold;
 }
 
-.footer-logo {
-  display: none;
-}
-
 .copyright {
   display: none;
 }
@@ -378,11 +374,6 @@ p {
   border: 2px solid rgb(173, 171, 171);
 }
 
-.feature {
-  text-align: cener;
-  display: none;
-}
-
 .last-para {
   text-align: center;
   color: rgb(95, 95, 97);
@@ -483,18 +474,10 @@ p {
 
   .head-name {
     color: #ec5242;
-    font-size: 30px;
     margin-left: 17%;
     font-size: 39px;
     font-weight: bold;
     font-family: lato, sans-serif;
-  }
-
-  .feature {
-    text-align: cener;
-    display: block;
-    font-family: lato, sans-serif;
-    font-weight: bold;
   }
 
   .head-para {
@@ -556,7 +539,6 @@ p {
     margin-top: 10px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
   }
 
   .card-para {
@@ -576,7 +558,6 @@ p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     padding: 2%;
-    font-weight: 700;
   }
 
   .prog {
@@ -588,7 +569,6 @@ p {
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
     padding-bottom: 6%;
     margin-top: 4%;
   }
@@ -605,7 +585,6 @@ p {
     margin-right: 221px;
     margin-left: 220px;
   }
-
 
   .sample {
     width: 48%;
@@ -643,7 +622,6 @@ p {
   }
 
   .feature {
-    text-align: cener;
     display: none;
   }
 
@@ -691,7 +669,6 @@ p {
 
   .partner {
     padding-top: 1%;
-    font-size: 16x;
     display: flex;
     font-weight: bold;
     color: #fff;
