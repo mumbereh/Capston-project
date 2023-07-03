@@ -681,13 +681,18 @@ p {
       align-items: center;
     }
   }
-
+.last-mobile{
+  display: none;
+}
   .last-footer {
+    display: block;
     background-color: #272a31;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3%;
+
   }
 
   .footer-logo {

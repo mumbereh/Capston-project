@@ -131,7 +131,7 @@ nav a {
   }
 
   .desk-top {
-    display: none;
+    display: block;
   }
 
   .nav-btn {
