@@ -743,6 +743,10 @@ p {
     font-weight: 700;
   }
 
+  .last-content {
+    padding-top: 2rem;
+  }
+
   .footer-logo {
     padding: 6%;
     display: block;
@@ -750,15 +754,7 @@ p {
     margin-left: 6%;
   }
 
-  .copyright {
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    justify-content: space-around;
-    font-family: sans-serif;
-    margin-right: 6%;
-  }
+
 
   .nav-top li a:hover {
     background-color: #555;
