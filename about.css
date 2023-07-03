@@ -44,7 +44,8 @@ li {
   bottom: 18.88%;
   margin-left: 15px;
 }
-.nav-top{
+
+.nav-top {
   display: none;
 }
 
@@ -125,7 +126,6 @@ nav a {
   }
 
   nav {
-    position: absolute;
     position: absolute;
     top: 0;
     left: 0;
