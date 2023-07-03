@@ -146,9 +146,8 @@ If you like this project, kindly contact me on my github: Authors](#authors)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
+>  ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 1. I am heartfelt thank you to my coding partners for their unwavering support, collaboration, and dedication throughout this project; your contributions have been invaluable.
 
