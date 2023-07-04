@@ -68,20 +68,8 @@ nav a {
   font-weight: bold;
 }
 
-.copyright {
-  display: none;
-}
-
 .nav-btn {
   margin-right: 70px;
-}
-
-.footer-logo {
-  display: none;
-}
-
-.contain {
-  display: none;
 }
 
 .close-button .links {
@@ -115,6 +103,10 @@ nav a {
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: block;
+  }
+
+  .footer-logo {
+    display: none;
   }
 
   nav {
@@ -158,10 +150,6 @@ nav a {
     margin: 1rem 0;
   }
 
-  .close-button {
-    display: block;
-  }
-
   .body {
     box-sizing: border-box;
     background-repeat: no-repeat;
@@ -175,6 +163,10 @@ nav a {
 .home-page {
   background: url(images/mobile_bg.png);
   background-size: 100%;
+}
+
+.copyright {
+  display: none;
 }
 
 .slogan {
@@ -383,6 +375,12 @@ span {
   height: auto;
 }
 
+.bast {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
 .feature {
   text-align: center;
   margin-top: 20px;
@@ -393,6 +391,10 @@ span {
 p {
   margin: 0;
   text-align: left;
+}
+
+.contain {
+  display: none;
 }
 
 .about-logo {
@@ -412,6 +414,17 @@ p {
   text-align: center;
   color: rgb(95, 95, 97);
   padding: 12px;
+}
+
+#speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .sample {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -557,10 +570,6 @@ p {
     margin: -10px;
   }
 
-  .close-button {
-    display: none;
-  }
-
   .card-image {
     width: 30%;
     object-fit: cover;
@@ -624,15 +633,10 @@ p {
     width: 48%;
     display: flex;
     margin-bottom: 20px;
-  }
-
-  .speaker-img {
-    width: 100px;
-    margin-right: 10px;
+    ma
   }
 
   .speaker-name {
-    margin-top: 0;
     font-size: 16px;
     color: #272a31;
     font-family: 'Lato', sans-serif;
@@ -641,7 +645,7 @@ p {
 
   .work {
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 16px;
     color: #ec5242;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -650,7 +654,7 @@ p {
   .contribution {
     color: #272a31;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
   }
@@ -659,6 +663,10 @@ p {
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
+  }
+
+  .close-button {
+    display: none;
   }
 
   .footer {
