@@ -713,12 +713,6 @@ p {
     font-size: 30px;
   }
 
-  /*
-  year {
-    font-size: 40px;
-    margin-left: 136px;
-  } */
-
   @media (max-width: 768px) {
     .last-about {
       flex-wrap: wrap;
