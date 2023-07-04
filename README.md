@@ -57,7 +57,7 @@ This capstone project aims to create a robust and user-friendly online conferenc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://mumbereh.github.io/Capston-project/)
+- [Live Demo Link](https://mumbereh.github.io/Capston-project/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
