@@ -1,3 +1,4 @@
+// Add event listener to toggle the navigation menu
 const menuToggle = document.querySelector('.menu-toggle');
 const nav = document.querySelector('nav');
 const closeBtn = document.querySelector('.close-button');
@@ -25,6 +26,7 @@ links.forEach((n) => n.addEventListener('click', () => {
   menuToggle.style.display = 'block';
 }));
 
+// Array of speaker objects
 const speakers = [
   {
     imgSrc: 'feature-img/yochai.JPG',
@@ -63,9 +65,9 @@ const speakers = [
     contribution: 'Ryan has been leading open source projects at the Mozilla Foundation such as the source movement.',
   },
 ];
-
+// Get the container for speakers
 const speakersContainer = document.getElementById('speakers-container');
-
+// Create speaker elements and append them to the speakers container
 speakers.forEach((speaker) => {
   const speakerElement = document.createElement('div');
   speakerElement.className = 'sample';
